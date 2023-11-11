@@ -1,0 +1,73 @@
+.calk {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 500px;
+    background-color: black;
+    border-radius: 15px;
+    color: white;
+    box-shadow: 0 0 5px 5px rgba(39, 39, 39, 0.5)
+}
+
+.pole {
+    height: 150px;
+    display: grid;
+    justify-items: end;
+    align-items: flex-end;
+    margin-top: 20px;
+}
+
+.p {
+    text-align: right;
+    font-size: 70px;
+    margin: 20px 4px 20px 0px;
+    
+}
+
+
+.znaki {
+    display: grid;
+    grid-template-areas: 
+    "AC delit percent divide"
+    "seven eight nine multiply"
+    "four five six minus"
+    "one two three plus"
+    "zero zero comma equals";
+    grid-gap: 4px;
+    justify-items: center;
+
+}
+
+.butten {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Arial;
+    font-size: 30px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.butten.zero {
+    grid-area: zero;
+    width: 93%;
+    border-radius: 34px;
+}
+
+.orenge {
+    background-color: rgb(255, 153, 0)
+}
+
+.grey {
+    background-color: grey;
+}
+
+.black {
+    background-color: rgb(65, 64, 64);
+}
